@@ -396,3 +396,169 @@ footer{
 footer p{
     text-align: center;
 }
+
+/* projects */
+
+#projects {
+    position: relative;
+    padding: 4vh 5vw;
+    min-height: fit-content;
+}
+
+#projects h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.project-columns {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/* Each column */
+.column {
+    flex: 1;
+    min-width: 300px;
+}
+
+/* Section titles in columns */
+.project-column-title {
+    padding-top: 3rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.project {
+    padding: 1.5rem;
+    border: 1px solid blue;
+    border-radius: 2rem;
+    background-color: #fff;
+}
+
+.internship-project h3, .project h3 {
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.internship-project p, .project p {
+    color: rgb(85, 85, 85);
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.internship-project, .project {
+    margin-bottom: 2rem;
+}
+
+#personal-projects h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+    margin: 3rem 0 1.5rem;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 1400px) {
+    #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-containers{
+        flex-wrap: wrap;
+    }
+} 
+@media screen and (max-width: 1200px) {
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+    #experience, .experience-details-container{
+        margin-top: 2rem;
+    }
+    #profile, .section-container{
+        display: block;
+    }
+    section, .section-container{
+        height: fit-content;
+    }
+    section{
+        margin: 0 5%;
+    }
+    .section__pic-container{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .about-containers{
+        margin-top: 0;
+    }
+} 
+
+@media screen and (max-width: 600px) {
+    #contact, footer{
+        height: 40vh;
+    }
+
+    #profile{
+        height: 83vh;
+        margin-bottom: 0;
+    }
+    article{
+        font-size: 1rem;
+    }
+    footer nav{
+        height; fit-content;
+        margin-bottom: 2rem;
+    }
+    .about-containers, .contact-info-upper-container, .btn-container{
+        flex-wrap: wrap;
+    }
+    .contact-info-container{
+        margin: 0;
+    }
+    .contact-info-container p, .nav-links li a {
+        font-size: 1rem;
+    }
+    .experience-sub-title{
+        font-size: 1.25rem;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .nav-links{
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    .section__pic-container{
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+    }
+    .section__text__p2{
+        font-size: 1.25rem;
+    }
+    .title{
+        font-size: 2rem;
+    }
+
+    .text-container{
+        text-align: justify;
+    }
+}
+
