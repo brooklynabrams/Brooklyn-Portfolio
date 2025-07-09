@@ -607,6 +607,188 @@ footer p{
     width: 20px;
     vertical-align: middle;
   }
+
+
+  #experience h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#experience li {
+    font-size: 1rem;
+    color: rgb(85, 85, 85);
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+    text-align: justify;
+}
+
+.relevant-courses {
+    padding: 2rem;
+  }
+
+  .courses-list li:hover {
+    font-weight: bold;
+  }
+  
+  .experience-sub-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .courses-columns {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    flex-wrap: wrap; /* allows stacking on smaller screens */
+  }
+  
+  .course-column {
+    flex: 1 1 300px; /* flexible width, minimum 300px */
+    max-width: 500px;
+  }
+  
+  .course-column h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #444;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.3rem;
+  }
+  
+  .courses-list {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .courses-list li {
+    margin-bottom: 0.5rem;
+  }
+  
+
+  .outside-learning-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+    padding: 3rem 2rem;
+    flex-wrap: wrap; 
+    margin-top: 2rem;
+  }
+  
+  .outside-learning-left {
+    flex: 1 1 300px;
+    max-width: 500px;
+  }
+  
+  .outside-learning-title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #444;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.3rem;
+  }
+  
+  .outside-learning-list {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    color: #333;
+  }
+  
+  .outside-learning-list li {
+    margin-bottom: 0.6rem;
+    transition: font-weight 0.2s ease;
+  }
+  
+  .outside-learning-list li:hover {
+    font-weight: bold;
+  }
+  
+  .outside-learning-right {
+    flex: 1 1 300px;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .learning-image {
+    width: 100%;
+    max-width: 80%;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  figure {
+    margin: 0;
+    text-align: center;
+    padding-bottom: 1.5rem; 
+  }
+  
+  figcaption {
+    margin-top: 0rem;     
+    font-size: 0.95rem;
+    color: #666;
+  }
+  #family {
+    padding: 3rem 2rem;
+  }
+  
+  .family-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .family-left, .family-right {
+    flex: 1 1 300px;
+    max-width: 500px;
+  }
+  
+  .family-left img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .family-left p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .family-right img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dog-button {
+    display: inline-block;
+    font-size: 2.5rem;
+    text-decoration: none;
+    background-color: #ffefd5; /* soft dog-like color (papaya whip) */
+    padding: 0.5rem 1rem;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    margin-bottom: 1rem;
+  }
+  
+  .dog-button:hover {
+    background-color: #ffe4b5;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
   
 
 @media screen and (max-width: 1400px) {
